@@ -3,7 +3,8 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index()
+GET		/						penis
+GET     /                       controllers.Application.index()
 
 # Teams          
 GET     /teams                  controllers.Application.teams()
