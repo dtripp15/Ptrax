@@ -1,0 +1,141 @@
+2013-02-05 15:48:16,707 - [INFO] - from play in main 
+Listening for HTTP on port 9000...
+
+2013-02-05 15:51:13,290 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 15:51:14,447 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
+Application started (Dev)
+
+2013-02-05 15:52:46,986 - [ERROR] - from application in New I/O  worker #3 
+
+
+! Internal server error, for request [GET /teams] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [not found: value teams]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2013-02-05 15:53:01,943 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 15:53:02,426 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Application started (Dev)
+
+2013-02-05 15:53:09,831 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 15:53:10,213 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Application started (Dev)
+
+2013-02-05 15:56:47,396 - [ERROR] - from application in New I/O  worker #5 
+
+
+! Internal server error, for request [GET /teams] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected but symbol literal found.]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12$$anonfun$apply$13.apply(PlayReloader.scala:236) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:236) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4$$anonfun$apply$12.apply(PlayReloader.scala:233) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:233) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$4.apply(PlayReloader.scala:231) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:231) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:226) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.3]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:226) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0.4]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0.2]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:94) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) ~[akka-actor.jar:2.0.2]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0.2]
+
+2013-02-05 15:57:00,708 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 15:57:01,112 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Application started (Dev)
+
+2013-02-05 16:00:32,455 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 16:00:32,845 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Application started (Dev)
+
+2013-02-05 16:03:26,623 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 16:03:27,034 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Application started (Dev)
+
+2013-02-05 16:13:16,767 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 16:13:17,155 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
+2013-02-05 16:15:28,328 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 16:15:28,698 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
+2013-02-05 16:16:03,286 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 16:16:03,660 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
+2013-02-05 16:17:13,760 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 16:17:14,133 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
+2013-02-05 20:11:30,982 - [INFO] - from play in play-akka.actor.default-dispatcher-14 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 20:11:31,357 - [INFO] - from play in play-akka.actor.default-dispatcher-14 
+Application started (Dev)
+
+2013-02-05 20:13:14,255 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 20:13:14,639 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+Application started (Dev)
+
+2013-02-05 20:39:41,889 - [INFO] - from play in play-akka.actor.default-dispatcher-16 
+database [default] connected at jdbc:mysql://localhost/pitchtrax?characterEncoding=UTF-8
+
+2013-02-05 20:39:42,331 - [INFO] - from play in play-akka.actor.default-dispatcher-16 
+Application started (Dev)
+

@@ -1,0 +1,48 @@
+@(teams: List[Team], teamForm: Form[Team])
+
+@import helper._
+@import helper.twitterBootstrap._
+
+@main("Team list") {
+
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap/bootstrap.min.css")" />
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap/responsive.min.css")" />
+    <div class="container-fluid">
+    	<div class="row-fluid">
+    	<div class="span4">
+    <h2>@teams.size() team(s)</h2>
+    
+    <table class="table">
+    <tr><th>#</th><th>Team Name</th><th>League</th><th>Division</th><th>&nbsp;</th></tr>
+     @for(team <- teams) {
+     <tr><td>@team.id</td><td>@team.team_name</td><td>@team.leagueid</td><td>@team.divisionid</td>
+     <td>
+                @form(routes.Application.deleteTeam(team.id)) {
+                    <input type="submit" value="Delete" class="btn btn-link">
+                }     
+     </td>
+     
+     </tr>
+    }
+    </table>
+		</div>
+    	<div class="span8">
+    <h2>Add a new team</h2>   
+    
+    @form(routes.Application.newTeam()) {
+        @inputText(teamForm("team_name"), '_label -> "Team Name") 
+        @inputText(teamForm("leagueid"), '_label -> "League") 
+        @inputText(teamForm("divisionid"), '_label -> "Division") 
+        
+        <input type="submit" value="Create" class="btn btn-primary">    	    	
+    	</div>
+    </div>  
+    </div>  
+
+    
+
+<script src="js/bootstrap.min.js"></script>        
+        
+    }
+    
+}
